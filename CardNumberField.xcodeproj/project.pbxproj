@@ -13,7 +13,7 @@
 		F5D07AD92816B649007F4C32 /* CardNumberField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D07ACE2816B649007F4C32 /* CardNumberField.framework */; };
 		F5D07ADE2816B649007F4C32 /* CardNumberFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D07ADD2816B649007F4C32 /* CardNumberFieldTests.swift */; };
 		F5D07ADF2816B649007F4C32 /* CardNumberField.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D07AD12816B649007F4C32 /* CardNumberField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5D07AEF2816B6DF007F4C32 /* CardNumberSampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D07AEE2816B6DF007F4C32 /* CardNumberSampleAppApp.swift */; };
+		F5D07AEF2816B6DF007F4C32 /* CardNumberSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D07AEE2816B6DF007F4C32 /* CardNumberSampleApp.swift */; };
 		F5D07AF12816B6DF007F4C32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D07AF02816B6DF007F4C32 /* ContentView.swift */; };
 		F5D07AF32816B6E0007F4C32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D07AF22816B6E0007F4C32 /* Assets.xcassets */; };
 		F5D07AF62816B6E0007F4C32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D07AF52816B6E0007F4C32 /* Preview Assets.xcassets */; };
@@ -62,7 +62,7 @@
 		F5D07AD82816B649007F4C32 /* CardNumberFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardNumberFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D07ADD2816B649007F4C32 /* CardNumberFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardNumberFieldTests.swift; sourceTree = "<group>"; };
 		F5D07AEC2816B6DF007F4C32 /* CardNumberSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardNumberSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5D07AEE2816B6DF007F4C32 /* CardNumberSampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardNumberSampleAppApp.swift; sourceTree = "<group>"; };
+		F5D07AEE2816B6DF007F4C32 /* CardNumberSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardNumberSampleApp.swift; sourceTree = "<group>"; };
 		F5D07AF02816B6DF007F4C32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F5D07AF22816B6E0007F4C32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5D07AF52816B6E0007F4C32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -159,7 +159,7 @@
 		F5D07AED2816B6DF007F4C32 /* CardNumberSampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				F5D07AEE2816B6DF007F4C32 /* CardNumberSampleAppApp.swift */,
+				F5D07AEE2816B6DF007F4C32 /* CardNumberSampleApp.swift */,
 				F5D07AF02816B6DF007F4C32 /* ContentView.swift */,
 				F5D07AF22816B6E0007F4C32 /* Assets.xcassets */,
 				F5D07AF42816B6E0007F4C32 /* Preview Content */,
@@ -411,7 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5D07AF12816B6DF007F4C32 /* ContentView.swift in Sources */,
-				F5D07AEF2816B6DF007F4C32 /* CardNumberSampleAppApp.swift in Sources */,
+				F5D07AEF2816B6DF007F4C32 /* CardNumberSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

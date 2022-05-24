@@ -13,7 +13,6 @@ struct ContentView: View {
     var body: some View {
         CardNumberField(onCardNumberInput: { cardNumber in
             print(cardNumber)
-            print(cardNumber.count)
         })
             .padding()
     }
